@@ -89,5 +89,3 @@ export function makeWholeList(_data) {
 
   return div;
 }
-
-// document.querySelector("#app").appendChild(makeWholeList(data));

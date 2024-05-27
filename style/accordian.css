@@ -1,0 +1,75 @@
+/* Accordian */
+
+.category .category-header {
+  display: flex;
+  justify-content: start;
+  margin: 1.5rem 0;
+}
+
+.category .category-header h2 {
+  font-size: 2rem;
+  margin: 2px;
+  display: block;
+  width: 200px;
+}
+
+.category .category-header button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 4px;
+}
+
+.item:hover {
+  background-color: #f0f0f0;
+}
+
+.item:last-of-type {
+  margin-bottom: 0;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.item .item-info {
+  margin-left: 20px;
+}
+
+.item .item-info a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.item .item-info a:visited {
+  color: #4f2929;
+}
+
+.item .item-info a:hover {
+  color: #666;
+}
+
+.item .item-info p {
+  padding: 4px 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.hidden {
+  display: none;
+}
