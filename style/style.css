@@ -2,14 +2,18 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .fullContainer {
   width: 100%;
   margin: 0 auto;
-  padding: 20px;
 }
